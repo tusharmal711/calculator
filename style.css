@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(3, 4, 44);
+}
+.container{
+    border-radius: 1rem;
+    background-color: rgb(15, 2, 49);
+    height:25rem;
+    width:17rem;
+    margin-top: 3rem;
+    margin-left:40%;
+    text-align: center;
+    border:0.0001rem solid white;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 54px 55px, rgba(0, 0, 0, 0.1) 0px -12px 3px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h5{
+    color:white;
+   
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    margin-bottom: -0.8rem;
+    padding-top: 1rem;
+}
+.dis{
+    background-color: white;
+    width:88%;
+    margin:1rem;
+    height:2rem;
+}
+
+.key{
+    text-align: center;
+   
+}
+.key div{
+    display: flex;
+    margin:0.7rem;
+    margin-left:-0.01rem;
+    
+}
+p{
+    background-color: white;
+    padding:0.94rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-left:1rem;
+    border-radius: 50%;
+    font-family: arial;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 54px 55px, rgba(0, 0, 0, 0.1) 0px -12px 3px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#r{
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+}
+#c{
+    padding-left: 1.12rem;
+    padding-right: 1.12rem;
+}
+#t{
+    padding-left: 1.32rem;
+    padding-right: 1.32rem;
+    background-color: rgb(25, 38, 90);
+    color:white;
+}
+#m{
+    padding-left: 1.32rem;
+    padding-right: 1.32rem;
+    background-color: rgb(25, 38, 90);
+    color:white;
+}
+#x{
+    background-color: rgb(25, 38, 90);
+    color:white;
+    
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    display: flex;
+    
+   
+}
+#pm{
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+    
+}
+#d{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
+#plus{
+    background-color: rgb(25, 38, 90);
+    color:white;
+}
+#eqal{
+    color:white;
+    background-color:rgb(254, 109, 109);
+}
+
+#span{
+    font-family: arial;
+    float:right;
+    margin-top: 0.25rem;
+    font-size: 1.3rem;
+    padding-right:0.5rem;
+}
+@media only screen and (max-width:490px) and (min-width:340px)
+{
+html{
+   font-size: 125%; 
+}
+.container{
+    margin-left: 5%;
+}
+
+
+
+
+}
+
