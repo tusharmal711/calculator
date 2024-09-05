@@ -10,7 +10,7 @@
 "sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
         crossorigin="anonymous"
         referrerpolicy="no-referrer"></script> 
-   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
@@ -47,9 +47,10 @@
                 <p id="plus">+</p>
             </div>
             <div class="key5">
-                <p id="pm">+/-</p>
+               
                 <p>0</p>
                 <p id="d">.</p>
+                <p id="pm"><i class="fa-solid fa-delete-left"></i></p>
                 <p id="eqal">=</p>
             </div>
 
@@ -59,14 +60,16 @@
       let span=document.getElementById("span");
       let c=document.getElementById("c");
       let lop,rop,op;
-      for(let i=0;i<=18;i++)
+      for(let i=0;i<=17;i++)
       {
         let p=document.querySelectorAll("p")[i];
         p.addEventListener("click",function()
        {
         
          span.innerHTML+=p.innerHTML;
+        
         });
+
       }
 
       c.addEventListener("click",function()
@@ -74,7 +77,11 @@
          span.innerHTML="";
     });
   
-
+    let pm=document.getElementById("pm");
+    pm.addEventListener("click",function()
+{
+        span.innerHTML=span.innerHTML.slice(0, -1);
+});
 
     let eqal=document.getElementById("eqal");
     eqal.addEventListener("click",function()
@@ -84,6 +91,7 @@
             document.getElementById("span").innerHTML = y ;
 });
     
+
   
     
 
